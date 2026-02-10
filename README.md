@@ -1,3 +1,3 @@
 ## 🏗️ Architecture
 
-![AWS Architecture](images/AWS%20Infrastructure%20.jpeg)
+![AWS Architecture](AWS%20Infrastructure%20.jpeg)
