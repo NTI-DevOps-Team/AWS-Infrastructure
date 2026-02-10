@@ -17,7 +17,6 @@ The infrastructure is modular, reusable, and designed for scalability.
 ## 🏗️ High-Level Architecture
 
 ![AWS Architecture](AWS%20Infrastructure%20.jpeg) consists of:
-
 - **VPC (10.0.0.0/16)** spanning two Availability Zones
 - **Public Subnets**
   - Internet-facing resources (ELB, Bastion Host, NAT Gateway)
@@ -30,16 +29,6 @@ The infrastructure is modular, reusable, and designed for scalability.
 - **Amazon ECR** for container images
 - **AWS IAM** for permissions and access control
 - **Amazon Route 53** for DNS routing
-
-### Network Layout
-
-| Component | CIDR |
-|---------|------|
-| VPC | 10.0.0.0/16 |
-| Public Subnet AZ-A | 10.0.128.0/20 |
-| Public Subnet AZ-B | 10.0.144.0/20 |
-| Private Subnet AZ-A | 10.0.0.0/19 |
-| Private Subnet AZ-B | 10.0.32.0/19 |
 
 ---
 
