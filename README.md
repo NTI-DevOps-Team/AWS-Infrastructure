@@ -16,7 +16,7 @@ The infrastructure is modular, reusable, and designed for scalability.
 
 ## 🏗️ High-Level Architecture
 
-![AWS Architecture](AWS%20Infrastructure%20.jpeg) consists of:
+![AWS Architecture](images/AWS%20Infrastructure%20.jpeg) consists of:
 - **VPC (10.0.0.0/16)** spanning two Availability Zones
 - **Public Subnets**
   - Internet-facing resources (ELB, Bastion Host, NAT Gateway)
